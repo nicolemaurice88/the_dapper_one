@@ -179,7 +179,7 @@
 
 
   .highlight_image{
-      background: url('./images/product/product_13.jpg');
+      background: url('./images/products/comp_pro_images/product_13-min.jpg');
       background-position: 50% 50%;
       background-size: cover;
       background-repeat: no-repeat;
@@ -501,7 +501,7 @@
 
   .head_section{
     background: linear-gradient(to left, rgba(0,0,0,0.1), rgba(0,0,0,0)),
-    url('./images/beard_mustached_land.jpg');
+    url('./images/must_beard 20.jpg');
     height: 100vh;
     background-position: center;
     background-size: cover;
