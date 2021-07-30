@@ -3,16 +3,19 @@ const menuLinks = document.querySelector('.navbar_menu')
 const navLogo = document.querySelector('#navbar_logo')
 const body = document.querySelector('body')
 
-// Display Mobile menu
+// display mobile menu
 const mobileMenu = () =>{
   menu.classList.toggle('is-active')
   menuLinks.classList.toggle('active')
   body.classList.toggle('active')
 };
-// triggers navbar_toggle class 3 bars
+
+// trigger navbar_toggle 
+
 menu.addEventListener('click',mobileMenu)
 
-//Animations
+//animations
+
 gsap.registerPlugin(ScrollTrigger)
 
 gsap.from('.animate-intro',{
