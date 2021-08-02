@@ -32,12 +32,12 @@ gsap.from('.animate-gallery',{
   duration:0.6,
   opacity: 1.2,
   y: -150,
-  stagger: 0.12
+  stagger: 0.10
 });
 
 gsap.from('.animate-gallery-img',{
   scrollTrigger:'.animate-gallery-img',
-  duration:0.6,
+  duration:0.5,
   opacity: 1.2,
   y: 150,
   stagger: 0.12,
