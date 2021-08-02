@@ -160,6 +160,21 @@
       color: var(--brown);
     }
 
+    @media screen and (max-width:1100px ) {
+      .intro_section{
+        background-position: right;
+        height: 90vh;
+      }
+
+      .intro_content {
+        margin-top: 30%;
+        align-content: flex-end;
+      }
+      
+
+      
+    }
+
     /*Product Highlight Section*/
 
   .product__highlight{
