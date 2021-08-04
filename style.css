@@ -33,6 +33,7 @@
     align-items: center;
     position: relative;
   }
+
   .navbar_logo{
     color: var(--white);
     font-family: 'Zen Dots', cursive;
@@ -44,11 +45,13 @@
   .fa-redhat{
     color: var(--brown);
   }
+
   .navbar_link{
     color: var(--white);
     text-decoration: none;
     padding: 0rem 2rem;
   }
+  
   .navbar_link:hover{
     color: var(--brown);
   }
