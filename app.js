@@ -12,12 +12,10 @@ const mobileMenu = () =>{
   body.classList.toggle('active')
 };
 
-// trigger navbar_toggle 
-
+// call mobileMenu function
 menu.addEventListener('click',mobileMenu)
 
 //animations
-
 gsap.registerPlugin(ScrollTrigger)
 
 gsap.from('.animate-intro',{
