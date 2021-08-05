@@ -503,6 +503,7 @@
       .footer__wrapper{
         grid-template-columns: 1fr;
       }
+      
     }
 
     @media screen and (max-width: 400px) {
